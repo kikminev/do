@@ -1,0 +1,13 @@
+- companies
+    - users
+        - roles
+        - doctors
+    - locations
+        - doctors - who works there
+        - addresses
+        
+- addresses
+- users
+- appointments
+- clients
+- pets
