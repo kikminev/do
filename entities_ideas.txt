@@ -11,3 +11,17 @@
 - appointments
 - clients
 - pets
+- прегледи
+- diagnosis
+
+
+
+
+
+========== DO
+- locations
+    - adresses
+- users 
+- customers
+- pets
+- 
