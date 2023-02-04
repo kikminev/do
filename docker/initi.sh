@@ -7,4 +7,12 @@ apt install curl -y
 
 curl -sS https://get.symfony.com/cli/installer | bash
 mv /root/.symfony5/bin/symfony /usr/local/bin/symfony
-apt-get install -y php-simplexml
+apt-get install -y php8.2-xml
+
+
+apt-get install software-properties-common
+dpkg --remove --force-remove-reinstreq libnode-dev
+dpkg --remove --force-remove-reinstreq libnode72:amd64
+
+curl -sL https://deb.nodesource.com/setup_19.x | bash -
+apt-get install -y nodejs
